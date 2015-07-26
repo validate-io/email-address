@@ -1,0 +1,52 @@
+{
+  "name": "validate.io-email-address",
+  "version": "0.0.0",
+  "description": "Validates if a value is an email address.",
+  "author": {
+    "name": "Athan Reines",
+    "email": "kgryte@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Athan Reines",
+      "email": "kgryte@gmail.com"
+    }
+  ],
+  "scripts": {
+    "test": "mocha",
+    "test-cov": "istanbul cover ./node_modules/.bin/_mocha --dir ./reports/coverage -- -R spec",
+    "coveralls": "istanbul cover ./node_modules/.bin/_mocha --dir ./reports/coveralls/coverage --report lcovonly -- -R spec && cat ./reports/coveralls/coverage/lcov.info | coveralls && rm -rf ./reports/coveralls"
+  },
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/validate-io/email-address.git"
+  },
+  "keywords": [
+    "validate.io",
+    "validate",
+    "validation",
+    "validator",
+    "valid",
+    "is",
+    "isvalid",
+    "isemail",
+    "email",
+    "address"
+  ],
+  "bugs": {
+    "url": "https://github.com/validate-io/email-address/issues"
+  },
+  "dependencies": {
+    "validate.io-string-primitive": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "3.x.x",
+    "coveralls": "^2.11.1",
+    "istanbul": "^0.3.0",
+    "jshint": "2.x.x",
+    "jshint-stylish": "2.x.x",
+    "mocha": "2.x.x"
+  },
+  "license": "MIT"
+}
