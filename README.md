@@ -1,6 +1,6 @@
 Email Address
 ===
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![Dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coverage Status][codecov-image]][codecov-url] [![Dependencies][dependencies-image]][dependencies-url]
 
 > Validates if a value is an [email address](http://davidcel.is/posts/stop-validating-email-addresses-with-regex/).
 
@@ -104,8 +104,8 @@ Copyright &copy; 2015. Athan Reines.
 [travis-image]: http://img.shields.io/travis/validate-io/email-address/master.svg
 [travis-url]: https://travis-ci.org/validate-io/email-address
 
-[coveralls-image]: https://img.shields.io/coveralls/validate-io/email-address/master.svg
-[coveralls-url]: https://coveralls.io/r/validate-io/email-address?branch=master
+[codecov-image]: https://img.shields.io/codecov/c/github/validate-io/email-address/master.svg
+[codecov-url]: https://codecov.io/github/validate-io/email-address?branch=master
 
 [dependencies-image]: http://img.shields.io/david/validate-io/email-address.svg
 [dependencies-url]: https://david-dm.org/validate-io/email-address
