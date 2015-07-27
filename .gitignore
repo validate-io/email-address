@@ -139,7 +139,3 @@ acs-*.bib
 *.ilg
 *.ind
 *.ist
-
-# Utilities #
-#############
-.coveralls.yml
